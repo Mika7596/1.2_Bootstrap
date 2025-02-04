@@ -1,7 +1,17 @@
 
-body{
-    background-color: yellow;
-}
+$primary:#5265E1;
+$secondary: #FA5959;
+$light: #dde;
+
+$theme-colors: (
+    "primary": $primary,
+    "secondary": $secondary,
+    "light": $light
+);
 
 
 @import "../node_modules/bootstrap/scss/bootstrap";
+
+#navbarNav{
+    margin-left: 170px;
+}

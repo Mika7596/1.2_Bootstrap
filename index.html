@@ -8,10 +8,10 @@
     <title>Tasca 1.2</title>
 </head>
 <body>
-    <header class="container">
+    <header class="container mt-3">
         <div class="row">
-            <div class="col-6"><img src="./Imagenes/logo-bookmark.svg" alt="Bookmark"></div>
-            <nav class="col navbar navbar-expand-lg">
+            <div class="col-md-6 mt-3"><img src="./Imagenes/logo-bookmark.svg" alt="Bookmark"></div>
+            <nav class="col-md-6  navbar navbar-expand-lg">
                 <div class="container-fluid">
                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -27,14 +27,25 @@
                       <li class="nav-item">
                         <a class="nav-link" href="#">Pricing</a>
                       </li>
-                      <li type="button" class="btn btn-danger">Log in</li>
+                      <li type="button" class="btn btn-secondary">Log in</li>
                     </ul>
                   </div>
                 </div>
               </nav>
-
-
         </div>
     </header>
+    <main class="container mt-5">
+        <div class="row">
+            <div class="col-5 mt-5 pt-5 order-1">
+                <h1 class="fs-1 text-break fw-bolder">A Simple Bookmark Manager</h1>
+                <p class="mt-4">A clean and simple interface to organize your favourite websites. Open a new browser tab and see your sites load instantly. Try it free.</p>
+                <div class="mt-4">
+                    <button type="button" class="btn btn-primary p-2">Get it on Chrome</button>
+                    <button type="button" class="btn btn-light p-2 ms-2">Get it on FireFox</button>
+                </div>
+            </div>
+            <div class="col-5 order-2"><img src="./Imagenes/illustration-hero.svg" alt="Hero"></div>
+        </div>
+    </main>
 </body>
 </html>
