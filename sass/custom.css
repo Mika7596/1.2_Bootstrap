@@ -11509,10 +11509,14 @@ textarea.form-control-lg {
 }
 
 .carbut {
-  text-decoration: none;
+  border: transparent;
+  background-color: #fff;
+}
+
+.carbut:focus {
+  border-bottom: 2px solid rgb(161, 30, 52);
 }
 
 .carbut:hover {
-  color: pink;
-  border-bottom: 2px solid pink;
+  color: rgb(161, 30, 52);
 }/*# sourceMappingURL=custom.css.map */
