@@ -11495,6 +11495,10 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+* {
+  box-sizing: border-box;
+}
+
 #navbarNav {
   margin-left: 170px;
 }
@@ -11508,6 +11512,11 @@ textarea.form-control-lg {
   border-bottom: 1px solid gray;
 }
 
+.cards-row {
+  width: 80%;
+  justify-content: space-around;
+}
+
 .carbut {
   border: transparent;
   background-color: #fff;
@@ -11519,4 +11528,15 @@ textarea.form-control-lg {
 
 .carbut:hover {
   color: rgb(161, 30, 52);
+}
+
+.card {
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+  max-height: -moz-fit-content;
+  max-height: fit-content;
+}
+
+.hr-card {
+  border-top: dotted 2px;
 }/*# sourceMappingURL=custom.css.map */
