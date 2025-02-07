@@ -11541,6 +11541,11 @@ textarea.form-control-lg {
   border-top: dotted 2px;
 }
 
+.but-exten:hover {
+  background-color: white;
+  color: #5265E1;
+}
+
 .item-accor-1 {
   border-top: 1px solid var(--bs-border-color);
   border-bottom: 1px solid var(--bs-border-color);

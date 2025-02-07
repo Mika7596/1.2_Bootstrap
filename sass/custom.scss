@@ -59,6 +59,11 @@ background-color: #fff;
     border-top: dotted 2px;
 }
 
+.but-exten:hover{
+    background-color: white;
+    color: #{$primary};
+}
+
 .item-accor-1{
     border-top: 1px solid #{$accordion-border-color};
     border-bottom:1px solid #{$accordion-border-color};
