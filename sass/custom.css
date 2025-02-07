@@ -11549,4 +11549,31 @@ textarea.form-control-lg {
 .accordion-button:hover {
   color: #FA5959;
   cursor: pointer;
+}
+
+.footer-top {
+  background-color: #7887e9;
+}
+
+.footer-but {
+  background-color: rgb(55, 55, 124);
+}
+
+footer, footer a, footer li {
+  color: white;
+  text-decoration: none;
+  list-style: none;
+}
+
+.footer-list {
+  justify-content: space-between;
+  font-size: 0.9rem;
+}
+
+footer li a:hover {
+  color: #FA5959;
+}
+
+.social:hover {
+  filter: invert(76%) sepia(71%) saturate(6864%) hue-rotate(331deg) brightness(107%) contrast(96%);
 }/*# sourceMappingURL=custom.css.map */
