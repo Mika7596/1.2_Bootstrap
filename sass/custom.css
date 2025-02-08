@@ -11499,10 +11499,6 @@ textarea.form-control-lg {
   box-sizing: border-box;
 }
 
-#navbarNav {
-  margin-left: 170px;
-}
-
 .text-justify {
   text-align: center;
 }
@@ -11520,10 +11516,6 @@ textarea.form-control-lg {
 .carbut {
   border: transparent;
   background-color: #fff;
-}
-
-.carbut:focus {
-  border-bottom: 2px solid rgb(161, 30, 52);
 }
 
 .carbut:hover {
@@ -11552,8 +11544,14 @@ textarea.form-control-lg {
 }
 
 .accordion-button:hover {
-  color: #FA5959;
   cursor: pointer;
+}
+
+.accordion-button:focus {
+  color: black;
+  background-color: white;
+  outline: none;
+  box-shadow: none;
 }
 
 .footer-top {
@@ -11581,4 +11579,41 @@ footer li a:hover {
 
 .social:hover {
   filter: invert(76%) sepia(71%) saturate(6864%) hue-rotate(331deg) brightness(107%) contrast(96%);
+}
+
+@media (max-width: 992px) {
+  .hero {
+    max-width: 100%;
+  }
+  .bookmark-text {
+    text-align: center;
+  }
+  .features {
+    margin-top: 40px;
+  }
+  .carbut {
+    border-top: 1px solid gray;
+    padding: 10px;
+  }
+  .carbut:focus + .border-mobile {
+    margin: auto;
+    width: 60%;
+    border-bottom: 2px solid rgb(161, 30, 52);
+  }
+  .car-text {
+    text-align: center;
+  }
+  .display-none {
+    display: none;
+  }
+  .margin-auto, .margin-auto li:first-child, .margin-auto li:nth-child(2) {
+    margin: auto;
+    text-align: center;
+    padding-bottom: 20px;
+  }
+}
+@media (min-width: 992px) {
+  .carbut:focus {
+    border-bottom: 2px solid rgb(161, 30, 52);
+  }
 }/*# sourceMappingURL=custom.css.map */
