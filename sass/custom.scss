@@ -19,16 +19,21 @@ $accordion-button-active-icon:  url("data:image/svg+xml,<svg xmlns='http://www.w
     box-sizing: border-box;
 }
 
-.navbar-nav a:hover{
-    color: #{$secondary}
-}
-.navbar-nav li:last-child:hover, .form-but:hover, .btn-login:hover{
+.navbar-nav li:last-child:hover, .form-but:hover, .btn-login:hover, .but-firefox:hover, .carbut, .but-exten:hover, .but-chrome:hover, .accordion-button:focus{
     background-color: white;
+}
+
+
+footer, footer a, footer li, .div-error{
+    color: white;
+
+}
+
+.navbar-nav li:last-child:hover, .form-but:hover, .btn-login:hover, .navbar-nav a:hover, .accordion-button:hover, footer li a:hover{
     color: #{$secondary}
 }
 
 .but-firefox:hover{
-    background-color: white;
     color: rgb(163, 163, 156);
 }
 
@@ -48,7 +53,6 @@ $accordion-button-active-icon:  url("data:image/svg+xml,<svg xmlns='http://www.w
 
 .carbut{
 border: transparent;
-background-color: #fff;
 }
 
 
@@ -66,7 +70,6 @@ background-color: #fff;
 }
 
 .but-exten:hover, .but-chrome:hover{
-    background-color: white;
     color: #{$primary};
 }
 
@@ -77,12 +80,10 @@ background-color: #fff;
 
 .accordion-button:hover{
     cursor: pointer;
-    color: #{$secondary}
 }
 
 .accordion-button:focus{
     color: black;
-    background-color: white;
     outline: none;
     box-shadow: none;
 }
@@ -96,7 +97,6 @@ background-color: #fff;
 }
 
 footer, footer a, footer li{
-    color: white;
     text-decoration: none;
     list-style: none;
 }
@@ -106,19 +106,15 @@ footer, footer a, footer li{
     font-size: 0.9rem;
 }
 
-footer li a:hover{
-    color: #{$secondary}
-}
 .social:hover{
     filter: invert(76%) sepia(71%) saturate(6864%) hue-rotate(331deg) brightness(107%) contrast(96%);
 }
 
-
 .div-error{
-    color: white;
-    background-color: #FA5959;
+    background-color: #{$secondary};
 }
- 
+
+
 @media (max-width: 992px){
     .hero{
         max-width: 100%;
@@ -162,9 +158,6 @@ footer li a:hover{
         margin: auto;
         text-align: center;
       }
-    //   .nav-link{
-    //     flex-direction: row;
-    // }
 
     .btn-login{
         margin-left: 50px;

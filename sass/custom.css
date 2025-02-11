@@ -11499,17 +11499,19 @@ textarea.form-control-lg {
   box-sizing: border-box;
 }
 
-.navbar-nav a:hover {
-  color: #FA5959;
+.navbar-nav li:last-child:hover, .form-but:hover, .btn-login:hover, .but-firefox:hover, .carbut, .but-exten:hover, .but-chrome:hover, .accordion-button:focus {
+  background-color: white;
 }
 
-.navbar-nav li:last-child:hover, .form-but:hover, .btn-login:hover {
-  background-color: white;
+footer, footer a, footer li, .div-error {
+  color: white;
+}
+
+.navbar-nav li:last-child:hover, .form-but:hover, .btn-login:hover, .navbar-nav a:hover, .accordion-button:hover, footer li a:hover {
   color: #FA5959;
 }
 
 .but-firefox:hover {
-  background-color: white;
   color: rgb(163, 163, 156);
 }
 
@@ -11529,7 +11531,6 @@ textarea.form-control-lg {
 
 .carbut {
   border: transparent;
-  background-color: #fff;
 }
 
 .carbut:hover {
@@ -11548,7 +11549,6 @@ textarea.form-control-lg {
 }
 
 .but-exten:hover, .but-chrome:hover {
-  background-color: white;
   color: #5265E1;
 }
 
@@ -11559,12 +11559,10 @@ textarea.form-control-lg {
 
 .accordion-button:hover {
   cursor: pointer;
-  color: #FA5959;
 }
 
 .accordion-button:focus {
   color: black;
-  background-color: white;
   outline: none;
   box-shadow: none;
 }
@@ -11578,7 +11576,6 @@ textarea.form-control-lg {
 }
 
 footer, footer a, footer li {
-  color: white;
   text-decoration: none;
   list-style: none;
 }
@@ -11588,16 +11585,11 @@ footer, footer a, footer li {
   font-size: 0.9rem;
 }
 
-footer li a:hover {
-  color: #FA5959;
-}
-
 .social:hover {
   filter: invert(76%) sepia(71%) saturate(6864%) hue-rotate(331deg) brightness(107%) contrast(96%);
 }
 
 .div-error {
-  color: white;
   background-color: #FA5959;
 }
 
