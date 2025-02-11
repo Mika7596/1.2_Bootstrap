@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="author" content="Mina Karimian">
   <link rel="stylesheet" href="./sass/custom.css">
+  <link rel="icon" href="./Imagenes/favicon-32x32.png" type="image/x-icon" />
   <title>Tasca 1.2</title>
 </head>
 
@@ -20,7 +21,7 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav mx-auto">
+            <ul class="navbar-nav mx-auto col-md-9 d-md-flex justify-content-md-between">
               <li class="nav-item">
                 <a class="nav-link" href="#">Features</a>
               </li>
@@ -30,7 +31,7 @@
               <li class="nav-item">
                 <a class="nav-link" href="#">Pricing</a>
               </li>
-              <li type="button" class="btn btn-secondary col-4">Log in</li>
+              <li type="button" class="btn btn-secondary">Log in</li>
             </ul>
           </div>
         </div>
@@ -41,33 +42,39 @@
     <div class="row">
       <div class="col-12 col-md-5 mt-md-5 pt-5 order-2 order-md-1 bookmark-text">
         <h1 class="fs-1 text-break fw-bolder mx-auto">A Simple Bookmark Manager</h1>
-        <p class="mt-4 mx-auto">A clean and simple interface to organize your favourite websites. Open a new browser tab and see
+        <p class="mt-4 mx-auto">A clean and simple interface to organize your favourite websites. Open a new browser tab
+          and see
           your sites load instantly. Try it free.</p>
         <div class="mt-4">
-          <button type="button" class="btn btn-primary p-2">Get it on Chrome</button>
-          <button type="button" class="btn btn-light p-2 ms-2">Get it on FireFox</button>
+          <button type="button" class="btn btn-primary p-2 but-chrome">Get it on Chrome</button>
+          <button type="button" class="btn btn-light p-2 ms-2 but-firefox">Get it on FireFox</button>
         </div>
       </div>
-      <div class="col-12 col-md-5 order-1 order-md-2"><img src="./Imagenes/illustration-hero.svg" alt="Hero" class="hero"></div>
+      <div class="col-12 col-md-5 order-1 order-md-2"><img src="./Imagenes/illustration-hero.svg" alt="Hero"
+          class="hero"></div>
     </div>
     <h2 class="fw-bolder col-2 mx-auto text-justify features">Features</h2>
-    <p class="col-8 col-md-5 mx-auto text-justify my-3">Our aim is to make it quick and easy for you to access your favourite websites. Your bookmarks sync between your devices so you can access them on the go.</p>
+    <p class="col-8 col-md-5 mx-auto text-justify my-3">Our aim is to make it quick and easy for you to access your
+      favourite websites. Your bookmarks sync between your devices so you can access them on the go.</p>
 
 
     <div id="carouselExampleIndicators" class="carousel slide">
       <div class="col-6 mx-auto mb-5 d-flex flex-column flex-md-row parent-ind">
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="carbut p-2" aria-current="true" aria-label="Slide 1">Simple Bookmarking</button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="carbut p-2"
+          aria-current="true" aria-label="Slide 1">Simple Bookmarking</button>
         <div class="border-mobile"></div>
         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"
           class="carbut p-2">Speedy Searching</button>
-          <div class="border-mobile"></div>
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3" class="carbut p-2">Easy Sharing</button>
+        <div class="border-mobile"></div>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"
+          class="carbut p-2">Easy Sharing</button>
         <div class="border-mobile"></div>
       </div>
       <div class="carousel-inner">
         <div class="carousel-item active container">
           <div class="row">
-            <div class="col-12 col-md-5"><img src="./Imagenes/illustration-features-tab-1.svg" class="d-block w-100" alt="...">
+            <div class="col-12 col-md-5"><img src="./Imagenes/illustration-features-tab-1.svg" class="d-block w-100"
+                alt="...">
             </div>
             <div class="col-10 col-md-5 mt-5 ms-5 car-text">
               <h2>Bookmark in one click</h2>
@@ -119,7 +126,8 @@
       </button>
     </div>
     <h2 class="fw-bolder col-10 col-md-4 mx-auto text-justify mt-5">Download the extension</h2>
-    <p class="col-8 col-md-5 mx-auto text-justify my-3">We've got more browsers in the pipeline. Please do let us know if you've got a favorite you'd like us to prioritize.</p>
+    <p class="col-8 col-md-5 mx-auto text-justify my-3">We've got more browsers in the pipeline. Please do let us know
+      if you've got a favorite you'd like us to prioritize.</p>
 
     <div class="container mt-5">
       <div class="row d-flex cards-row mx-auto">
@@ -154,7 +162,8 @@
     </div>
 
     <h2 class="fw-bolder col-8 col-md-5 mx-auto text-justify mt-5">Frequently Asked Questions</h2>
-    <p class="col-9 col-md-5 mx-auto text-justify my-3">Here are some of our FAQs. If you have any other questions you'd like
+    <p class="col-9 col-md-5 mx-auto text-justify my-3">Here are some of our FAQs. If you have any other questions you'd
+      like
       answered please feel free to email us.</p>
     <div class="col-9 col-md-5 mx-auto text-justify mb-5">
       <div class="accordion accordion-flush my-4 item-accor-1" id="accordionFlushExample">
@@ -226,6 +235,24 @@
       </div>
       <div class="row">
         <h4 class="col-10 col-md-4 mx-auto text-justify">Stay up-to-date with what we're doing</h4>
+        <div class="container-fluid">
+          <div class="row justify-content-center">
+            <div class="col-auto p-3">
+              <form class="row g-2 form-row needs-validation" novalidate>
+                <div class="col-auto">
+                  <input type="email" id="email" class="form-control" placeholder="Enter your email address" required
+                    pattern="^[^@]+@[^@]+\.[^@]+$">
+                  <div class="invalid-feedback">
+                    <i>Whoops, make sure it's an email!</i>
+                  </div>
+                </div>
+                <div class="col-auto">
+                  <button type="submit" class="btn btn-secondary w-100">Contact Us</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
     <div class="footer-but d-flex row px-5 py-4">
@@ -239,13 +266,35 @@
           <li><a href="#">CONTACT</a></li>
         </ul>
       </div>
-      <div class="footer-right text-start mx-auto text-md-end col-5 col-md-4">
+      <div class="footer-right col-8 col-md-4 mx-auto d-flex justify-content-around justify-content-md-end">
         <a href="#"><img src="./Imagenes/icon-facebook.svg" alt="" class="mx-4 social"></a>
         <a href="#"><img src="./Imagenes/icon-twitter.svg" alt="" class="social"></a>
       </div>
     </div>
   </footer>
   <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    // Example starter JavaScript for disabling form submissions if there are invalid fields
+    (function () {
+      'use strict'
+
+      // Fetch all the forms we want to apply custom Bootstrap validation styles to
+      var forms = document.querySelectorAll('.needs-validation')
+
+      // Loop over them and prevent submission
+      Array.prototype.slice.call(forms)
+        .forEach(function (form) {
+          form.addEventListener('submit', function (event) {
+            if (!form.checkValidity()) {
+              event.preventDefault()
+              event.stopPropagation()
+            }
+
+            form.classList.add('was-validated')
+          }, false)
+        })
+    })()
+  </script>
 </body>
 
 </html>

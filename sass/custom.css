@@ -11499,6 +11499,20 @@ textarea.form-control-lg {
   box-sizing: border-box;
 }
 
+.navbar-nav a:hover {
+  color: #FA5959;
+}
+
+.navbar-nav li:last-child:hover, .form-but:hover {
+  background-color: white;
+  color: #FA5959;
+}
+
+.but-firefox:hover {
+  background-color: white;
+  color: rgb(163, 163, 156);
+}
+
 .text-justify {
   text-align: center;
 }
@@ -11533,7 +11547,7 @@ textarea.form-control-lg {
   border-top: dotted 2px;
 }
 
-.but-exten:hover {
+.but-exten:hover, .but-chrome:hover {
   background-color: white;
   color: #5265E1;
 }
@@ -11545,6 +11559,7 @@ textarea.form-control-lg {
 
 .accordion-button:hover {
   cursor: pointer;
+  color: #FA5959;
 }
 
 .accordion-button:focus {
@@ -11581,6 +11596,17 @@ footer li a:hover {
   filter: invert(76%) sepia(71%) saturate(6864%) hue-rotate(331deg) brightness(107%) contrast(96%);
 }
 
+.form-input {
+  border-radius: 5px;
+  border-color: white;
+  outline: transparent;
+}
+
+.div-error {
+  color: white;
+  background-color: #FA5959;
+}
+
 @media (max-width: 992px) {
   .hero {
     max-width: 100%;
@@ -11612,8 +11638,27 @@ footer li a:hover {
     padding-bottom: 20px;
   }
 }
+@media (max-width: 576px) {
+  .navbar-nav {
+    min-height: 100vh;
+    z-index: 3;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+  }
+  .form-row {
+    display: flex;
+    flex-direction: column;
+  }
+}
 @media (min-width: 992px) {
   .carbut:focus {
     border-bottom: 2px solid rgb(161, 30, 52);
+  }
+}
+@media (min-width: 768px) {
+  .form-but {
+    max-width: -moz-fit-content;
+    max-width: fit-content;
   }
 }/*# sourceMappingURL=custom.css.map */
