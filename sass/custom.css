@@ -11597,6 +11597,29 @@ footer, footer a, footer li {
   .hero {
     max-width: 100%;
   }
+}
+@media (max-width: 576px) {
+  .navbar-nav {
+    z-index: 3;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+  }
+  .btn-login {
+    margin-left: 50px;
+  }
+  #navbarNav {
+    flex-direction: column;
+    text-align: center;
+  }
+  .navbar-text {
+    text-align: center;
+    margin-left: 50px;
+  }
+  .form-row {
+    display: flex;
+    flex-direction: column;
+  }
   .bookmark-text {
     text-align: center;
   }
@@ -11624,30 +11647,7 @@ footer, footer a, footer li {
     padding-bottom: 20px;
   }
 }
-@media (max-width: 576px) {
-  .navbar-nav {
-    z-index: 3;
-    width: 90%;
-    margin: auto;
-    text-align: center;
-  }
-  .btn-login {
-    margin-left: 50px;
-  }
-  #navbarNav {
-    flex-direction: column;
-    text-align: center;
-  }
-  .navbar-text {
-    text-align: center;
-    margin-left: 50px;
-  }
-  .form-row {
-    display: flex;
-    flex-direction: column;
-  }
-}
-@media (min-width: 992px) {
+@media (min-width: 577px) {
   .carbut:focus {
     border-bottom: 2px solid rgb(161, 30, 52);
   }
