@@ -13,7 +13,6 @@
 <body>
   <header class="container mt-3 text-justify">
 
-
     <nav class="navbar navbar-expand-lg navbar-light mb-5">
       <div class="container">
         <img src="./Imagenes/logo-bookmark.svg" alt="Logo" />
@@ -241,10 +240,10 @@
           <div class="row justify-content-center">
             <div class="col-auto p-3">
               <form class="row g-2 form-row needs-validation" novalidate>
-                <div class="col-auto">
+                <div class="col-auto" id="input-container">
                   <input type="email" id="email" class="form-control" placeholder="Enter your email address" required
                     pattern="^[^@]+@[^@]+\.[^@]+$">
-                  <div class="invalid-feedback div-error mt-0">
+                  <div class="invalid-feedback div-error mt-0" id="error">
                     <i>Whoops, make sure it's an email!</i>
                   </div>
                 </div>
@@ -296,6 +295,13 @@
           }, false)
         })
     })()
+
+
+    if (document.getElementById("error").style.display == "block"){
+        document.getElementById("input-container").style.backgroundColor = "#FA5959"
+      } else{
+        document.getElementById("input-container").style.backgroundColor = "transparent";
+      }
   </script>
 </body>
 
