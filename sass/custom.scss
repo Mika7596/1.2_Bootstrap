@@ -22,7 +22,7 @@ $accordion-button-active-icon:  url("data:image/svg+xml,<svg xmlns='http://www.w
 .navbar-nav a:hover{
     color: #{$secondary}
 }
-.navbar-nav li:last-child:hover, .form-but:hover{
+.navbar-nav li:last-child:hover, .form-but:hover, .btn-login:hover{
     background-color: white;
     color: #{$secondary}
 }
@@ -113,11 +113,6 @@ footer li a:hover{
     filter: invert(76%) sepia(71%) saturate(6864%) hue-rotate(331deg) brightness(107%) contrast(96%);
 }
 
-.form-input{
-    border-radius: 5px;
-    border-color: white;
-    outline: transparent
-}
 
 .div-error{
     color: white;
@@ -162,13 +157,27 @@ footer li a:hover{
 
 @media (max-width: 576px){
     .navbar-nav{
-        min-height: 100vh;
         z-index: 3;
         width: 90%;
         margin: auto;
         text-align: center;
       }
-      
+    //   .nav-link{
+    //     flex-direction: row;
+    // }
+
+    .btn-login{
+        margin-left: 50px;
+    }
+    #navbarNav{
+        flex-direction: column;
+        text-align: center;
+      }
+    
+      .navbar-text{
+        text-align: center;
+        margin-left: 50px;
+      }
       .form-row{
         display: flex;
         flex-direction: column;
@@ -178,12 +187,6 @@ footer li a:hover{
 @media (min-width: 992px){
     .carbut:focus{
       border-bottom: 2px solid rgb(161, 30, 52);  
-    }
-}
-
-@media (min-width: 768px){ 
-    .form-but{
-        max-width: fit-content;
     }
 }
 

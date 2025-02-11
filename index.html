@@ -11,32 +11,34 @@
 </head>
 
 <body>
-  <header class="container mt-3">
-    <div class="row">
-      <div class="col-6 mx-auto mt-3"><img src="./Imagenes/logo-bookmark.svg" alt="Bookmark"></div>
-      <nav class="col-6 mx-auto navbar navbar-expand-lg">
-        <div class="container-fluid">
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav mx-auto col-md-9 d-md-flex justify-content-md-between">
-              <li class="nav-item">
-                <a class="nav-link" href="#">Features</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Pricing</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Pricing</a>
-              </li>
-              <li type="button" class="btn btn-secondary">Log in</li>
-            </ul>
-          </div>
+  <header class="container mt-3 text-justify">
+
+
+    <nav class="navbar navbar-expand-lg navbar-light mb-5">
+      <div class="container">
+        <img src="./Imagenes/logo-bookmark.svg" alt="Logo" />
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto me-5">
+            <li class="nav-item">
+              <a class="nav-link " href="#"><b>FEATURE</b></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="#"><b>PRICING</b></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="#"><b>CONTACT</b></a>
+            </li>
+            <li class="nav-item me-5 mt-1">
+              <button class="btn btn-secondary btn-login" href="#">LOGIN</button>
+            </li>
+          </ul>
         </div>
-      </nav>
-    </div>
+      </div>
+    </nav>
   </header>
   <main class="container mt-5">
     <div class="row">
@@ -242,7 +244,7 @@
                 <div class="col-auto">
                   <input type="email" id="email" class="form-control" placeholder="Enter your email address" required
                     pattern="^[^@]+@[^@]+\.[^@]+$">
-                  <div class="invalid-feedback">
+                  <div class="invalid-feedback div-error mt-0">
                     <i>Whoops, make sure it's an email!</i>
                   </div>
                 </div>
